@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://unpkg.com/@tonconnect/sdk@latest/dist/tonconnect-sdk.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Crypto Box</h1>
+
+    <div id="connect">
+
+    </div>
+    <script>
+        const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
+            manifestUrl: 'https://kaliasala.github.io/crypto-boxx.github.io/tonconnect-manifest.json',
+            buttonRootId: 'connect'
+        })
+    </script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
